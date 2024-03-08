@@ -1,6 +1,6 @@
 # Credit Card Fraud Detection with IntroVAE and XGBoost
 
-This repository presents a novel approach to detecting credit card fraud by leveraging the power of IntroVAE (Introductory Variational Autoencoders) for unsupervised anomaly detection, complemented by a supervised XGBoost model for classification. Our methodology combines the strengths of unsupervised learning for feature extraction and anomaly detection with the precision of supervised learning for fraud classification.
+This repository presents a novel approach to detecting credit card fraud by leveraging the power of self-adversarial variational autoencoder with elliptic envelope for unsupervised anomaly detection, complemented by a supervised XGBoost model for classification. Our methodology combines the strengths of unsupervised learning for feature extraction and anomaly detection with the precision of supervised learning for fraud classification.
 
 In particular, the choice of XGBoost as our supervised learning model is motivated by its excellent performance on structured data and its inherent interpretability. Unlike many black-box models, XGBoost provides valuable insights into feature importance directly, making it a preferred choice for sensitive applications like fraud detection where understanding the rationale behind predictions is crucial.
 
